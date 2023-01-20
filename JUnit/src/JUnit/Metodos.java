@@ -26,7 +26,7 @@ public class Metodos {
 		if (a == 0 || a == 1) {
 			primo = false;
 		} else {
-			for (int i = 2; i <= (a / 2); i++) {
+			for (int i = 2; i <= (a / 3); i++) {
 				if (a % i == 0) {
 					primo = false;
 				}
